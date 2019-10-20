@@ -9,3 +9,11 @@ print ('')
 print ('-------- FOR LOOP ----------')
 for i in words:
     print(i)
+
+print ('-------- WHILE LOOP ----------')
+secret = 'Swordfish'
+pw = ''
+while pw != secret:
+    pw = input('What is the secret word.?')
+
+
