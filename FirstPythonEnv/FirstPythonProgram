@@ -1,1 +1,16 @@
-print ('my first program');
+import platform
+
+def main():
+    message()
+
+def message():
+    version = platform.python_version() # this is a comment
+    print('this is python version {}'.format(version)) # this is print function
+
+
+x = 42
+print('Hello World... {}'.format(x))   # python 3 as object model
+print(f'Hello World... {x}')   # python 3.6 and later on
+print('Hello World... %d' %x)  # python 2 legacy model
+
+if __name__ == '__main__': main()
